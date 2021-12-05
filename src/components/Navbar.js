@@ -17,7 +17,7 @@ const Nav = () => {
 		<NavContainer>
 			<div className="nav-center">
 				<div className="nav-header">
-					<Link to="/">
+					<Link to="/e-commerce-store">
 						<img src={logo} alt="comfy sloth" />
 					</Link>
 					<button
@@ -39,7 +39,7 @@ const Nav = () => {
 					})}
 					{myUser && (
 						<li>
-							<Link to="/checkout">checkout</Link>
+							<Link to="/e-commerce-store/checkout">checkout</Link>
 						</li>
 					)}
 				</ul>

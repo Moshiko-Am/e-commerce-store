@@ -13,7 +13,11 @@ const CartButtons = () => {
 
 	return (
 		<Wrapper className="cart-btn-wrapper">
-			<Link to="/cart" className="cart-btn" onClick={closeSidebar}>
+			<Link
+				to="/e-commerce-store/cart"
+				className="cart-btn"
+				onClick={closeSidebar}
+			>
 				Cart
 				<span className="cart-container">
 					<FaShoppingCart />

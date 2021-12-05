@@ -25,10 +25,19 @@ const CartTotals = () => {
 						<span>{formatPrice(total_amount + shipping_fee)}</span>
 					</h4>
 				</article>
-				{myUser ?<Link to="/checkout" className="btn">
-					proceed to checkout
-				</Link>: <button className="btn" onClick={loginWithRedirect} type="button">login</button>}
-				
+				{myUser ? (
+					<Link to="/e-commerce-store/checkout" className="btn">
+						proceed to checkout
+					</Link>
+				) : (
+					<button
+						className="btn"
+						onClick={loginWithRedirect}
+						type="button"
+					>
+						login
+					</button>
+				)}
 			</div>
 		</Wrapper>
 	);

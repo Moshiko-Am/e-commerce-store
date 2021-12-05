@@ -41,7 +41,10 @@ const Sidebar = () => {
 					})}
 					{myUser && (
 						<li>
-							<Link to="/checkout" onClick={closeSidebar}>
+							<Link
+								to="/e-commerce-store/checkout"
+								onClick={closeSidebar}
+							>
 								checkout
 							</Link>
 						</li>

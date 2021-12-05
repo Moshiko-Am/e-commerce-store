@@ -20,16 +20,16 @@ function App() {
 				<Navbar />
 				<Sidebar />
 				<Switch>
-					<Route exact path="/">
+					<Route exact path="/e-commerce-store">
 						<Home />
 					</Route>
-					<Route exact path="/about">
+					<Route exact path="/e-commerce-store/about">
 						<About />
 					</Route>
-					<Route exact path="/cart">
+					<Route exact path="/e-commerce-store/cart">
 						<Cart />
 					</Route>
-					<Route exact path="/products">
+					<Route exact path="/e-commerce-store/products">
 						<Products />
 					</Route>
 					<Route
@@ -37,7 +37,7 @@ function App() {
 						path="/products/:id"
 						children={<SingleProduct />}
 					></Route>
-					<PrivateRoute exact path="/checkout">
+					<PrivateRoute exact path="/e-commerce-store/checkout">
 						<Checkout />
 					</PrivateRoute>
 					<Route path="*">

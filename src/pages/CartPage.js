@@ -11,7 +11,9 @@ const CartPage = () => {
 			<Wrapper className="page-100">
 				<div className="empty">
 					<h2>your cart is empty</h2>
-          <Link to="/products" className="btn">fill it</Link>
+					<Link to="/e-commerce-store/products" className="btn">
+						fill it
+					</Link>
 				</div>
 			</Wrapper>
 		);

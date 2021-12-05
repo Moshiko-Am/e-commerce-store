@@ -17,7 +17,7 @@ const CartContent = () => {
 			})}
 			<hr />
 			<div className="link-container">
-				<Link to="/products" className="link-btn">
+				<Link to="/e-commerce-store/products" className="link-btn">
 					continue shopping
 				</Link>
 				<button
